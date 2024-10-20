@@ -8,8 +8,8 @@ function App() {
   return (
     <div className="App">
       <header>
-        <h1>Portifólio de Henrique</h1>
-        <p>Conheça os meus projetos</p>
+        <h1>José Henrique Fernandes Silva - Desenvolvedor iOS</h1>
+        <h3>Conheça alguns dos meus projetos</h3>
         <Navigation />
       </header>
       <main className="container">
