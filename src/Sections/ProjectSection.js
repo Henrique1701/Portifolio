@@ -1,8 +1,8 @@
 import React from 'react';
 
-const ProjectSection = ({ title, content, videoUrl, buttons }) => {
+const ProjectSection = ({ id, title, content, videoUrl, buttons }) => {
   return (
-    <section className="project-section">
+    <section className="project-section" id={id}>
       <h2>{title}</h2>
       
       <p>{content}</p>

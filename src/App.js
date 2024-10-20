@@ -14,6 +14,7 @@ function App() {
       </header>
       <main className="container">
         <ProjectSection 
+          id="bloomie"
           title="Bloomie"
           imageUrl="./public/bloomie.png"
           buttons={
@@ -26,6 +27,7 @@ function App() {
         <SectionDivider />
 
         <ProjectSection 
+          id="cloudy"
           title="Cloudy"
           buttons={
             [
@@ -37,6 +39,7 @@ function App() {
         <SectionDivider />
 
         <ProjectSection 
+          id="banho_rapido"
           title="Banho Rápido"
           videoUrl="https://www.youtube.com/embed/4klilST6neY?si=EcnW6dskd6JPJBNa"
           buttons={
@@ -48,6 +51,7 @@ function App() {
         <SectionDivider />
 
         <ProjectSection 
+          id="youtube_pip"
           title="YouTube PIP"
           videoUrl="https://www.youtube.com/embed/--Rk9L1WSNQ"
           buttons={
@@ -59,6 +63,7 @@ function App() {
         <SectionDivider />
 
         <ProjectSection 
+          id="top_down_boat"
           title="TopDownBoat"
           videoUrl="https://www.youtube.com/embed/VdkZQFLj4Ps?si=Phr0XbFvbkyomhWq"
           buttons={
